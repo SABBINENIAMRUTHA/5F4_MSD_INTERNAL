@@ -10,6 +10,6 @@ const requestListener = function(req, res) {
     if (req.method === 'POST') {
         res.end('Welcome to Node Js with POST Method');
     }
+}
     const server = http.createServer(requestListener);
     server.listen(port, hostname);
-}
